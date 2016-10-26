@@ -1,0 +1,24 @@
+{
+  "name": "temp-app",
+  "scripts": {
+    "start": "node boot.js",
+    "postinstall": "gulp build"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^4.16.2",
+    "mongoose": "^4.5.9",
+    "multer": "^1.2.0",
+    "path": "^0.12.7",
+    "redis": "^2.6.2",
+    "ws": "^1.1.1"
+  }
+}
