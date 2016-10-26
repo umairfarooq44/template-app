@@ -1,6 +1,9 @@
 {
   "name": "temp-app",
-
+  "scripts": {
+    "start": "node boot.js",
+    "postinstall": "gulp build"
+  },
   "dependencies": {
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",

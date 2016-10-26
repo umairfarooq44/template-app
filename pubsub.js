@@ -1,5 +1,5 @@
 
-var redis = require('redis')
+/*var redis = require('redis')
 var client = redis.createClient()
 exports.publish = function (topic, data) {
     client.publish(topic, JSON.stringify(data))
@@ -10,12 +10,12 @@ exports.subscribe = function (topic, cb) {
     client.on('message', function (channel, message) {
         cb(JSON.parse(message))
     })
-}
+}*/
 
 
 
 
-/*var redis = require('redis')
+var redis = require('redis')
 var url = process.env.REDISTOGO_URL || 'redis://localhost:6379'
 var host = require('url').parse(url)
 
@@ -39,4 +39,4 @@ exports.subscribe = function (topic, cb) {
     client.on('message', function (channel, message) {
         cb(JSON.parse(message))
     })
-}*/
+}
